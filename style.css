@@ -1,15 +1,21 @@
-body {
-    background: #629cc2;    
+.margin {
+    margin: 30px 10px 10px 10px;
+    font-size: 70px;
+    text-align: center;
 }
-#imagen {
-    float: left;   
+.right {
+    text-align: right;
 }
-.box {
-    border: 1px solid #f60;    
-}
-p {
-    color: #fff;
-    float: left;
-    font-size: 50px;
-    margin: 10px 10px 10px 100px;
+.center {
+    margin: 20px 10px 10px 10px;
+    }    
+#bajar {
+    margin-top: 100px;
+    margin-left: -50px;
+    }
+.center2 {
+    text-align: center;
+    }
+#bajar2 {
+    margin-top: 70px;
 }
