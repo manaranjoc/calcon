@@ -1,3 +1,4 @@
+/*here you can edit the style of the page */
 .margin {
     margin: 30px 10px 10px 10px;
     font-size: 70px;
@@ -19,3 +20,7 @@
 #bajar2 {
     margin-top: 70px;
 }
+.width1 {
+    width: 280px;
+
+    }
