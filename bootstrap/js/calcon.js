@@ -1,3 +1,6 @@
 $('.carousel').carousel({
-  interval: 7000
+  interval: 1000
+});
+$('.carousel2').carousel({
+  interval: 1000
 });
