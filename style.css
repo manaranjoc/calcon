@@ -24,3 +24,9 @@
     width: 280px;
 
     }
+.input_negrilla {
+   font-style: bold;
+}
+.background{
+    background-image: url(images/control1.jpg);
+    }
