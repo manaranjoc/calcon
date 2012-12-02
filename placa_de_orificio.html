@@ -48,16 +48,37 @@
           </div><!--/.well -->
         </div><!--/span-->
         <div class="span7">
-        <h1 class ="center2">Valve flow coefficient</h1>
+        <h1 class ="center2">Orifice Plate Size</h1>
          <div class="span6">
-            <h2>Sub-critical flow</h2><br/>
-            <select id="estado">
-               <option value="nothing">--</option>
-               <option value="liquid">liquid</option>
-               <option value="gas">gas</option>
-               <option value="steam">steam</option>
-            </select>
-            <div id="formula">
+            <div id="move">
+               Temperatura servicio(&degC)<br />
+               <input type="text" placeholder="ts" id="ts" /><br />
+               Temperatura Ambiente(&degC)<br />
+               <input type="text" placeholder="t0" id="t0" /><br />
+               Coeficiente dilatacion de la tuberia<br />
+               <input type="text" placeholder="H" id="H" /><br />
+               Coeficiente de dilatacion de la placa<br />
+               <input type="text" placeholder="h" id="h" /><br />
+               Densidad del fluido (kg/m<sup>3</sup>) <br />
+               <input type="text" placeholder="p" id="p" /><br />
+               Caudal de diseño (kg/s) <br />
+               <input type="text" placeholder="Q" id="Q" /><br />
+                Pression diferencial(var)<br />
+               <input type="text" placeholder="PD" id="PD" /><br />
+                Pression absuluta(P1)<br />
+               <input type="text" placeholder="P1" id="P1" /><br />
+                Viscosidad Absoluta en condiciones de servicio(n)<br />
+               <input type="text" placeholder="n" id="n" /><br />
+                Diametro Interior tuberia(D)<br />
+               <input type="text" placeholder="D" id="D" /><br />
+                Coeficiente y Isentropico(X)<br />
+               <input type="text" placeholder="X" id="X" /><br />
+               Coeficiente de humedad(W)<br />
+               <input type="text" placeholder="W" id="W" /><br />
+               <input type="checkbox" id="liquid" name="liquid" value="liquid">liquid<br />
+               <input type="checkbox" id="gas" name="gas" value="gas">gas<br />
+               <input type="checkbox" id="steam" name="steam" value="steam">steam<br />
+               <button id="submit" class="btn">Submit</button>
             </div>
          </div>
         </div>
